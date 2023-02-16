@@ -30,17 +30,16 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import SwiftUI
+import Foundation
 
-@main
-struct AppMain: App {
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-          .navigationTitle("SportFan")
-          .preferredColorScheme(.dark)
-      }
-    }
+struct TicketsInfo: Hashable {
+  let type: String
+  let price: Int
+  let left: Int
+
+  func hash(into hasher: inout Hasher) {
+    hasher.combine(type)
+    hasher.combine(price)
+    hasher.combine(left)
   }
 }

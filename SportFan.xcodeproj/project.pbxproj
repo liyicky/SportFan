@@ -17,6 +17,16 @@
 		5C7B63832995F5F600DF68F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B63822995F5F600DF68F5 /* Constants.swift */; };
 		5C7B63852996153F00DF68F5 /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B63842996153F00DF68F5 /* BallView.swift */; };
 		5C7B6387299615C100DF68F5 /* JumpingBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B6386299615C100DF68F5 /* JumpingBallView.swift */; };
+		5C7B63892997BAF800DF68F5 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B63882997BAF800DF68F5 /* FilterView.swift */; };
+		5C7B6392299CEA9A00DF68F5 /* MockTicketsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B638B299CEA9A00DF68F5 /* MockTicketsData.swift */; };
+		5C7B6393299CEA9A00DF68F5 /* EventLocationAndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B638C299CEA9A00DF68F5 /* EventLocationAndDate.swift */; };
+		5C7B6394299CEA9A00DF68F5 /* SeatsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B638D299CEA9A00DF68F5 /* SeatsSelectionView.swift */; };
+		5C7B6395299CEA9A00DF68F5 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B638E299CEA9A00DF68F5 /* TicketView.swift */; };
+		5C7B6396299CEA9A00DF68F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B638F299CEA9A00DF68F5 /* Extensions.swift */; };
+		5C7B6397299CEA9A00DF68F5 /* EventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B6390299CEA9A00DF68F5 /* EventDetailsView.swift */; };
+		5C7B6398299CEA9A00DF68F5 /* TicketsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B6391299CEA9A00DF68F5 /* TicketsInfo.swift */; };
+		5C7B639A299DC59100DF68F5 /* HeaderGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B6399299DC59100DF68F5 /* HeaderGeometryReader.swift */; };
+		5C7B639C299DC75E00DF68F5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7B639B299DC75E00DF68F5 /* HeaderView.swift */; };
 		835C287F28624B010074D7DE /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835C287E28624B010074D7DE /* MockData.swift */; };
 		835C288128624B070074D7DE /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835C288028624B070074D7DE /* EventView.swift */; };
 		835C288428624EF70074D7DE /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835C288328624EF70074D7DE /* Event.swift */; };
@@ -35,6 +45,16 @@
 		5C7B63822995F5F600DF68F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5C7B63842996153F00DF68F5 /* BallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
 		5C7B6386299615C100DF68F5 /* JumpingBallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpingBallView.swift; sourceTree = "<group>"; };
+		5C7B63882997BAF800DF68F5 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		5C7B638B299CEA9A00DF68F5 /* MockTicketsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTicketsData.swift; sourceTree = "<group>"; };
+		5C7B638C299CEA9A00DF68F5 /* EventLocationAndDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventLocationAndDate.swift; sourceTree = "<group>"; };
+		5C7B638D299CEA9A00DF68F5 /* SeatsSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatsSelectionView.swift; sourceTree = "<group>"; };
+		5C7B638E299CEA9A00DF68F5 /* TicketView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		5C7B638F299CEA9A00DF68F5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5C7B6390299CEA9A00DF68F5 /* EventDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsView.swift; sourceTree = "<group>"; };
+		5C7B6391299CEA9A00DF68F5 /* TicketsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketsInfo.swift; sourceTree = "<group>"; };
+		5C7B6399299DC59100DF68F5 /* HeaderGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGeometryReader.swift; sourceTree = "<group>"; };
+		5C7B639B299DC75E00DF68F5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		835C287E28624B010074D7DE /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		835C288028624B070074D7DE /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		835C288328624EF70074D7DE /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
@@ -72,14 +92,18 @@
 		18D775BF22AD944300AE281E /* SportFan */ = {
 			isa = PBXGroup;
 			children = (
+				5C7B639B299DC75E00DF68F5 /* HeaderView.swift */,
+				5C7B6399299DC59100DF68F5 /* HeaderGeometryReader.swift */,
 				18D775CE22AD944400AE281E /* Info.plist */,
 				1839F4AF25190F2A00BB00F1 /* AppMain.swift */,
 				18D775C422AD944300AE281E /* ContentView.swift */,
+				5C7B63882997BAF800DF68F5 /* FilterView.swift */,
 				835C288328624EF70074D7DE /* Event.swift */,
 				835C288028624B070074D7DE /* EventView.swift */,
 				835C287E28624B010074D7DE /* MockData.swift */,
 				18D775C622AD944400AE281E /* Assets.xcassets */,
 				18D775DA22AD963800AE281E /* LaunchScreen.storyboard */,
+				5C7B638A299CEA9A00DF68F5 /* EventDetails */,
 				18D775C822AD944400AE281E /* Preview Content */,
 				5C7B637E2995F36D00DF68F5 /* PullToRefresh.swift */,
 				5C7B63802995F41A00DF68F5 /* ScrollViewGeometryReader.swift */,
@@ -96,6 +120,20 @@
 				18D775C922AD944400AE281E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C7B638A299CEA9A00DF68F5 /* EventDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5C7B638B299CEA9A00DF68F5 /* MockTicketsData.swift */,
+				5C7B638C299CEA9A00DF68F5 /* EventLocationAndDate.swift */,
+				5C7B638D299CEA9A00DF68F5 /* SeatsSelectionView.swift */,
+				5C7B638E299CEA9A00DF68F5 /* TicketView.swift */,
+				5C7B638F299CEA9A00DF68F5 /* Extensions.swift */,
+				5C7B6390299CEA9A00DF68F5 /* EventDetailsView.swift */,
+				5C7B6391299CEA9A00DF68F5 /* TicketsInfo.swift */,
+			);
+			path = EventDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,14 +230,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7B63892997BAF800DF68F5 /* FilterView.swift in Sources */,
 				5C7B63852996153F00DF68F5 /* BallView.swift in Sources */,
+				5C7B6397299CEA9A00DF68F5 /* EventDetailsView.swift in Sources */,
+				5C7B6394299CEA9A00DF68F5 /* SeatsSelectionView.swift in Sources */,
 				18D775C522AD944300AE281E /* ContentView.swift in Sources */,
+				5C7B6392299CEA9A00DF68F5 /* MockTicketsData.swift in Sources */,
 				5C7B637F2995F36D00DF68F5 /* PullToRefresh.swift in Sources */,
+				5C7B6395299CEA9A00DF68F5 /* TicketView.swift in Sources */,
 				835C287F28624B010074D7DE /* MockData.swift in Sources */,
+				5C7B6393299CEA9A00DF68F5 /* EventLocationAndDate.swift in Sources */,
 				5C7B6387299615C100DF68F5 /* JumpingBallView.swift in Sources */,
+				5C7B6398299CEA9A00DF68F5 /* TicketsInfo.swift in Sources */,
 				1839F4B025190F2A00BB00F1 /* AppMain.swift in Sources */,
+				5C7B6396299CEA9A00DF68F5 /* Extensions.swift in Sources */,
 				835C288128624B070074D7DE /* EventView.swift in Sources */,
+				5C7B639C299DC75E00DF68F5 /* HeaderView.swift in Sources */,
 				835C288428624EF70074D7DE /* Event.swift in Sources */,
+				5C7B639A299DC59100DF68F5 /* HeaderGeometryReader.swift in Sources */,
 				5C7B63812995F41A00DF68F5 /* ScrollViewGeometryReader.swift in Sources */,
 				5C7B63832995F5F600DF68F5 /* Constants.swift in Sources */,
 			);
@@ -345,7 +393,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SportFan/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SportFan;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,7 +415,7 @@
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SportFan/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = SportFan;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

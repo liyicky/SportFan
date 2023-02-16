@@ -30,17 +30,18 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import SwiftUI
 
-@main
-struct AppMain: App {
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-          .navigationTitle("SportFan")
-          .preferredColorScheme(.dark)
-      }
-    }
+func getTicketsInfo(for event: Event) -> [TicketsInfo] {
+  var ticketsLeft = event.ticketsLeft
+  var info: [TicketsInfo] = []
+
+  (1...4).forEach {
+    let random: Int = .random(in: 15...245)
+    let left = random > ticketsLeft ? ticketsLeft : random
+    ticketsLeft -= left
+
+    info.append(TicketsInfo(type: "Category \($0)", price: .random(in: 250...350) / $0, left: left))
   }
+
+  return info
 }

@@ -34,7 +34,7 @@ import SwiftUI
 
 func fetchMoreEvents(toAppend: [Event]) async -> [Event] {
   if !toAppend.isEmpty {
-    try? await Task.sleep(nanoseconds: 5_000_000_000)
+    try? await Task.sleep(nanoseconds: 1_500_000_000)
   }
   let newEvents = teams.map { team in makeEvent(for: team) }
 

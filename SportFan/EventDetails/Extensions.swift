@@ -30,17 +30,14 @@
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
 
-import SwiftUI
+import UIKit
 
-@main
-struct AppMain: App {
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-          .navigationTitle("SportFan")
-          .preferredColorScheme(.dark)
-      }
-    }
+extension UIApplication {
+  static var safeAreaTopInset: CGFloat {
+    return UIApplication.shared.connectedScenes
+      .first { $0.activationState == .foregroundActive && $0 is UIWindowScene }
+      .flatMap { $0 as? UIWindowScene }?.windows
+      .first { $0.isKeyWindow }?
+      .safeAreaInsets.top ?? 0
   }
 }

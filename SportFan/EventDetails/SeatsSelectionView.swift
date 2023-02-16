@@ -32,15 +32,23 @@
 
 import SwiftUI
 
-@main
-struct AppMain: App {
-  var body: some Scene {
-    WindowGroup {
-      NavigationView {
-        ContentView()
-          .navigationTitle("SportFan")
-          .preferredColorScheme(.dark)
-      }
+struct SeatsSelectionView: View {
+  let event: Event
+  
+  var body: some View {
+    VStack {
+      Spacer()
+      Text("// TODO: Implement seating chart")
+        .frame(maxWidth: .infinity)
+        .padding()
+      Spacer()
     }
+    .background(Constants.orange, ignoresSafeAreaEdges: .all)
+  }
+}
+
+struct SeatingChart_Previews: PreviewProvider {
+  static var previews: some View {
+    SeatsSelectionView(event: makeEvent(for: Team(name: "Dallas Mavericks", sport: .basketball, description: "")))
   }
 }
